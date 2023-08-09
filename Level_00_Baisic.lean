@@ -1,5 +1,9 @@
-structure Point (α : ℝ) where
-  x : ℝ
-  y : ℝ
+import data.real.basic
 
-notation `ℂ` := complex
+structure complex where
+re : ℝ
+im : ℝ
+
+notation "ℂ" => complex
+
+#check complex.mk 10 20
