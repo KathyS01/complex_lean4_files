@@ -12,7 +12,7 @@ instance : HasZero ℂ := ⟨zero⟩
 
 def one : ℂ := ⟨1, 0⟩
 
-instance : has_one ℂ := ⟨one⟩
+instance : HasOne ℂ := ⟨one⟩
 
 def add (z w : ℂ) : ℂ := ⟨z.re + w.re, z.im + w.im⟩
 
